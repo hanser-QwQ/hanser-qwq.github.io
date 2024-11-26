@@ -72,6 +72,17 @@
                 background-size: cover;
             }
           </style>
+          <style>
+            .main img
+            {
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            .main img:hover
+            {
+                transform: scale(1.2);
+            }
+          </style>
     </head>
 <body>
    <div class="nav">
@@ -98,9 +109,9 @@
       color: royalblue;
    ">
     <h3 id="1">足球裁判</h3>
-    <img src="../images/足球裁判.jpg" width="600px">
+    <div class="main"><img src="../images/足球裁判.jpg" width="600px"></div>
     <h3 id="2">观看比赛</h3>
-    <img src="../images/国足.jpg" width="600px">
+    <div class="main"><img src="../images/国足.jpg" width="600px"></div>
     
    </div>
 </body>
