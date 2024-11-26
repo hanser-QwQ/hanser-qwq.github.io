@@ -1,0 +1,58 @@
+*{/*取消内外边距 */
+padding: 0;
+margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 页面占据浏览器总高 */
+    height: 100vh;
+}
+
+hl{
+    width:1190px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+hl s{
+    position: relative;
+    width: 480px;
+    height: 270px;
+    overflow: hidden;
+    margin: 0 10px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+hl s:hover{
+    cursor:pointer;
+}
+.mask{
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #464646e8;
+    color: #fff;
+    transition: all .7s ease-out;
+}
+hl s:hover .mask{
+    top: 0;
+}
+.mask h1{
+    line-height: 50px;
+}
+.mask p{
+   padding: 20px;
+   font-weight: 500;
+   word-break: break-all;
+}
