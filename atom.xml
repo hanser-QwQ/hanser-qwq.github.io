@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>hanser-qwq</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://hanser-qwq.github.io/</id>
+  <link href="https://hanser-qwq.github.io/" rel="alternate"/>
+  <link href="https://hanser-qwq.github.io/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, hanser-qwq</rights>
+  <subtitle>Grateful Days</subtitle>
+  <title>小树洞</title>
+  <updated>2026-06-24T07:19:09.893Z</updated>
+  <entry>
+    <author>
+      <name>hanser-qwq</name>
+    </author>
+    <category term="生活" scheme="https://hanser-qwq.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="随笔" scheme="https://hanser-qwq.github.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    <content>
+      <![CDATA[<p>“与其站在原地思考，不如一步一步地往前走吧。哪怕昨天的足迹会消失不见，哪怕通往明天的道路隐没在黑暗中，也不要一味地回首过去，不要对未来悲观失望，只需尽情地感受当下。因为不管你如何反抗，时间总是会不断推着你前进。”</p>]]>
+    </content>
+    <id>https://hanser-qwq.github.io/2026/06/23/%E5%BB%BA%E7%AB%99/</id>
+    <link href="https://hanser-qwq.github.io/2026/06/23/%E5%BB%BA%E7%AB%99/"/>
+    <published>2026-06-23T12:09:54.000Z</published>
+    <summary>
+      <![CDATA[<p>“与其站在原地思考，不如一步一步地往前走吧。哪怕昨天的足迹会消失不见，哪怕通往明天的道路隐没在黑暗中，也不要一味地回首过去，不要对未来悲观失望，只需尽情地感受当下。因为不管你如何反抗，时间总是会不断推着你前进。”</p>]]>
+    </summary>
+    <title>建站</title>
+    <updated>2026-06-24T07:19:09.893Z</updated>
+  </entry>
+</feed>
