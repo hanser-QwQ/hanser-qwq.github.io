@@ -1,0 +1,71 @@
+/* ============================================================
+   自定义样式（从老站 Hexo/vivia 主题的 source/css/custom.css 迁移而来）
+   颜色改为引用 Fuwari 的 CSS 变量，会自动跟随亮色/暗色模式
+   以及 src/config.ts 里设置的 hue 主题色。
+   由 Layout.astro 引入，全局生效。
+   ============================================================ */
+
+
+/* ---------- 双语歌词 / 原文译文对照 ---------- */
+
+/* 一整段（包含原文 + 译文），左侧竖线用来把两者视觉上归为一组 */
+.lyric {
+    margin: 1.6em 0;
+    padding-left: 1em;
+    border-left: 3px solid var(--line-divider);
+    line-height: 1.9;
+}
+
+/* 原文：字号偏小、颜色偏淡，退到背景层 */
+.lyric .jp {
+    display: block;
+    font-size: 0.9em;
+    color: oklch(0.55 0.02 var(--hue));
+    letter-spacing: 0.02em;
+}
+
+/* 译文：字号偏大、颜色更亮，作为主角（沿用正文字色） */
+.lyric .zh {
+    display: block;
+    font-size: 1.08em;
+    font-weight: 500;
+}
+
+/* 想让某一句用主题色高亮，就在元素上再加一个 accent 类：
+   <span class="zh accent">…</span> */
+.lyric .accent {
+    color: var(--primary);
+}
+
+/* 不要左侧竖线时： <div class="lyric no-line"> */
+.lyric.no-line {
+    padding-left: 0;
+    border-left: none;
+}
+
+/* 暗色模式下原文更亮一点，保证可读性 */
+.dark .lyric .jp {
+    color: oklch(0.75 0.02 var(--hue));
+}
+
+
+/* ---------- 顺带保留的通用小工具 ---------- */
+
+/* 居中图片：<img class="img-center" src="..." width="60%"> */
+.img-center {
+    display: block;
+    margin: 1.5em auto;
+}
+
+/* 图片说明文字：<span class="caption">说明</span> */
+.caption {
+    display: block;
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 0.85em;
+    color: oklch(0.55 0.02 var(--hue));
+}
+
+.dark .caption {
+    color: oklch(0.75 0.02 var(--hue));
+}
