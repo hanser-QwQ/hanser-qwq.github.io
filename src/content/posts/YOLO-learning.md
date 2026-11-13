@@ -2,7 +2,7 @@
 title: YOLO学习笔记
 published: 2026-11-13
 description: 'YOLO学习中的一些小东西'
-image: '../../assets/images/si.jpg'
+image: '../../assets/images/Volcano_Travel.png'
 tags: [学习]
 category: '2026'
 draft: false 
